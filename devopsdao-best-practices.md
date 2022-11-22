@@ -15,5 +15,5 @@ Before we start with best practices, we would like to draw our users' attention 
 7. No fraud
 8. No crime
 
-We strongly underline that we do not tolerate any of the above mentioned on our platform.
+We strongly underline that we do not tolerate any of the above mentioned on our platform and in our communication channels.
 
