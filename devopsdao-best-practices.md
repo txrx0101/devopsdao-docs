@@ -27,4 +27,4 @@ then add some skills tags for example #JavaScript #Wordpress #WebDevelopment
 
 We believe that those type of tasks as in the example above can encourage other testers to participate in these tasks adding also meaningful information in their responses. A meaningful exchange of information will help us to build the next features more faster.
 
-What our test users could also do is for example give us tasks what we should develop next, which features are they missing most, what would they like to see 
+
