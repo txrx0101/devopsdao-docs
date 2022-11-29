@@ -19,3 +19,12 @@ We strongly underline that we do not tolerate any of the above mentioned on our 
 
 # Best practices
 
+We understand that testing is fun :) though we would also like to encourage our users to post meaningful tasks, so we can continue building based on the feedback we get from our community. To also serve as a guideline we would like to encourage tasks like the following:
+
+Title: Website development: Landing page
+Description: I am looking for a fullstack developer, who can build our landing page.
+then add some skills tags for example #JavaScript #Wordpress #WebDevelopment
+
+We believe that those type of tasks as in the example above can encourage other testers to participate in these tasks adding also meaningful information in their responses. A meaningful exchange of information will help us to build the next features more faster.
+
+What our test users could also do is for example give us tasks what we should develop next, which features are they missing most, what would they like to see 
