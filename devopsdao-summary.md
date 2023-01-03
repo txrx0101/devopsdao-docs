@@ -1,4 +1,4 @@
-What is devopsdao?
+# What is devopsdao?
 
 Devopsdao is a decentralized uniform platform for quality software development and design
 work, a decentralized marketplace for developers and designers. We are building the app as a
@@ -17,7 +17,7 @@ than an dApp on only one chain. We believe in the future of multi chain dApps, a
 chain transactions. We believe that cross-chain transactions will help the adoption of this
 innovative technology.
 
-What makes devopsdao unique?
+# What makes devopsdao unique?
 
 Devopsdao is being built with the developers and designers as a center piece. We are building
 devopsdao with the community in mind, the DAO will be owned and governed by the
@@ -39,7 +39,7 @@ In fact devopsdao will be a platform to which the user can plug into to receive 
 offered by devopsdao; we do not make it mandatory to use devopsdao at all, devopsdao is not
 restrictive, but inclusive.
 
-Who are the people behind devopsDAO?
+# Who are the people behind devopsDAO?
 
 First of all we are people who believe in that technology should be used for the good of
 humanity. We are a small group of tech professionals, designers and project managers, who
@@ -50,7 +50,7 @@ as simple as this.
 
 Our code is open source, we welcome pull requests on our GITHUB
 
-What technologies devopsdao created and used?
+# What technologies devopsdao created and used?
 
 Devopsdao itself is a technology company, being built and run by developers, project
 managers who are already participating in the technology market since more than 20 years,
@@ -68,7 +68,7 @@ based smart contract Diamonds are compiled with hardhat and depend on Axelar GMP
 for cross-chain interoperability. Devopsdao web app is served from Arweave decentralized
 cloud.
 
-Technology used and implemented
+# Technology used and implemented
 
 Arweave, Axelar, Dart2, Flutter3, Moonbeam,
 Solidity, Walletconnect, Ethereum EIP-2535 Diamonds, EIP-1155 multi token contracts.
