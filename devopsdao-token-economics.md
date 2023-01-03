@@ -28,4 +28,3 @@ These two main assets will be used either alone or in combination. NFTs will hav
 devopsdao token can be used as gas, this depends on user's choice. Fees will be paid and collected in devopsdao token. Token will be needed to buy "skill tags", NFTs and pay for audits.
 
 ## NFTs
-
