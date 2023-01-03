@@ -42,3 +42,57 @@ thank you @@simolus3 @superkeka @alexeyinkin @xclud @TheGreatAxios @rgplvr @theg
 
 9. decodeCall Uses the known types of the function parameters to parse them from the binary call data. The reverse of [encodeCall].
 
+10. make rpc call public
+
+11. Add block number to BlockInformation, add BlockInformationWithTransactions, add getBlockByNumberWithTransactions.
+
+12. API Documentation on how to create the wallet files, HD wallets simolus3/web3dart#2
+
+13. Fix fetching mempool transactions that do not yet have blockHash
+
+14. Erc20 class support for name, symbol and decimals functions. from @GangemiLorenzo/web3dart
+
+15. add sender to generated contract read
+
+16. add argSender to generated contracts from @kryptogo/web3dart
+
+17. add toMap for tx receipt
+
+18. add value for eth_call from @thegamenicorus/web3dart
+
+19. fix filter not found
+
+20. add getTransactionHistory
+
+21. keep rpc running
+
+22. add getPendingTransactions from @thelazyindian/web3dart
+
+23. Accept Null message Fix EIP1559Information from @MahmoudKhalid/web3dart
+
+24. Fix EIP1559Information
+
+25. Added getGasInEIP1559 method
+
+26. Added feeHistory method from @rgplvr/web3dart fix fetchChainIdFromNetworkId from @naiba/web3dart
+
+27. fix uint8list overflow
+
+# Recent Changes
+
+## 2.5.4
+
+added js_util_stub.dart to support javascript object conversion for metamask, fixed getFeeHistory, fixed getBlockInformation, changed from solc to solcjs
+
+## 2.5.3
+
+fixed getGasInEIP1559
+fixed sender type in contract generator
+
+## 2.5.2
+
+return build.yaml for contract generator
+
+## 2.5.1
+
+update pubspec
