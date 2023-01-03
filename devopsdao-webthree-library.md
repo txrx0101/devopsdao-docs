@@ -82,19 +82,20 @@ thank you @@simolus3 @superkeka @alexeyinkin @xclud @TheGreatAxios @rgplvr @theg
 
 ## 2.5.4
 
-...added js_util_stub.dart to support javascript object conversion for metamask..
-...fixed getFeeHistory..
-...fixed getBlockInformation..
-...changed from solc to solcjs..
+* added js_util_stub.dart to support javascript object conversion for metamask
+* fixed getFeeHistory
+* fixed getBlockInformation
+* changed from solc to solcjs
 
 ## 2.5.3
 
-fixed getGasInEIP1559; fixed sender type in contract generator
+* fixed getGasInEIP1559
+* fixed sender type in contract generator
 
 ## 2.5.2
 
-return build.yaml for contract generator
+* return build.yaml for contract generator
 
 ## 2.5.1
 
-update pubspec
+* update pubspec
