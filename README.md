@@ -4,7 +4,7 @@ description: Devopsdao Docs
 
 # Devopsdao Docs
 
-##Technology used and implemented
+## Technology used and implemented
 
 Arweave, Axelar, Dart, Flutter, Moonbeam, Solidity, Walletconnect, Ethereum EIP-2535 Diamonds, EIP-1155 multi token contracts.
 
