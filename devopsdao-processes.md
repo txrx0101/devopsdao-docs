@@ -9,6 +9,12 @@ Customer - When you create a task, you are in a Customer role.
 Performer - When you take a task, you are in a Performer role.
 Auditor - When you Audit a task, you are in a Auditor role.
 
+## Task types
+
+* Public
+* Private
+* Hackathon
+
 ## Wallet connection:
 
 When you open Devopsdao app, it will show you publicly viewable Tasks. In order to create a new Task, take or Audit an existing Task you must connect your wallet.
