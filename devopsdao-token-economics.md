@@ -23,6 +23,8 @@ These two main assets will be used either alone or in combination. NFTs will hav
 - Technical skills
 - Number of clients worked for
 
+*we are working on this in more depth and will provide updates at a later stage.
+
 ## Token (fungible)
 
 devopsdao token can be used as gas, this depends on user's choice. Fees will be paid and collected in devopsdao token. Token will be needed to buy "skill tags", NFTs and pay for audits.
