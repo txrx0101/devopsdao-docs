@@ -110,7 +110,8 @@ In every of these transactions, devopsdao collects a 2.5% service.
 
 # NFT marketplace
 
-NFT tags, completed Tasks and Project pages can be sold and purchased on dodao.dev NFT marketplace for dodao.dev token or stablecoins.
+NFT tags, completed Tasks and Project pages can be sold and purchased on dodao.dev NFT marketplace for dodao.dev token or stablecoins. Stablecoins will be directly exchanged to dodao.dev base token via an AMM.
+Dodao.dev NFTs will be also tradable on Opensea and other external marketplaces.
 
 # When are service fees due?
 
