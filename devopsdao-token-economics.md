@@ -88,6 +88,14 @@ In the near future it will also be possible that customers hire freelancers for 
 
 In every of these transactions, devopsdao collects a 2.5% service.
 
+# When are service fees due?
+
+* when a user adds a task to the marketplace, the 2.5% service fee is added to the smart contract.
+* when a user requests for an audit, the 2.5% service fee is added to the smart contract.
+* when a user books any of the professional services, the 2.5% service fee is added to the smart contract.
+
+At the end when the task is setlled the payment is made and the service fee is withdrawn.
+
 # What happens with the service fee?
 
 50% of the service fee is added to the treasury; the treasury uses this to secure the continuity of the dao and spents the money for grants to support open source projects, invests to enhance features and services of devopsdao. Business development is also one of the tasks of the Boardroom who controls the treasury.
@@ -107,6 +115,14 @@ Devopsdao Token will be needed to mint user NFTs, such as
 Devospdao Token will be needed to mint skill tags
 
 Devopsdao Token will be needed to participate in coding classes on our learning hub
+
+# Are tasks paid in devopsdao token?
+
+No, all tasks have a USDT value and tasks are paid in USDT.
+
+Service fees are collected in USDT as well.
+
+USDT will be used by the treasury to burn them for devopsdao token.
 
 
 
