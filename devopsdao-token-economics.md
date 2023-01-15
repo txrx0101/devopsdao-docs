@@ -55,7 +55,7 @@ dodao.dev token can be used as gas(GSN), this depends on user's choice. Fees wil
 
 ## NFTs (non-fungible)
 
-NFTs will have various use cases on devopsdao.
+NFTs(EIP-1155) will have various use cases on devopsdao.
 
 * user profiles are soulbound NFTs(eip-5192)
 * Task and skill tags are NFTs
@@ -81,7 +81,7 @@ When the Task is created, the NFT tags assigned to the Task are transferred from
 
 Both the Customer and Performer can initiate an Audit; Audits are used for settling an issue, mediation and clarification if there are any misunderstandings or unclear topics between the Customer and the Performer about the work done.
 
-## when can users initate an Audit?
+## When can users initate an Audit?
 
 * When a Task is in Agreed, Progress, Review stage Customer can apply for an Audit.
 * When a Task is in a Review stage a Performer can apply for an Audit.
@@ -98,7 +98,7 @@ Auditor role is to effectively and economically resolve the issue raised between
 
 *this stage we talk about "Task Audits" and not security Audits; security Audits are a seperate area we are going to explore in more depth later.
 
-# The marketplace, the now and the future
+# Task marketplace, the now and the future
 
 As you may have noticed on devopsdao users add Tasks to the marketplace, Tasks include skill Tags and could also include project identifiers to group Tasks that belong in a certain group, for eaxmple a feaure and features could be a part of a user story and user stories could be backlog items. On the other hand Tasks can then be grouped into sprints.
 
@@ -107,6 +107,10 @@ With future releases it will be possible to add complete projects based on time 
 In the near future it will also be possible that Customers hire freelancers for a longer professional engagement based on time spent on the project.
 
 In every of these transactions, devopsdao collects a 2.5% service.
+
+# NFT marketplace
+
+NFT tags, completed Tasks and Project pages can be sold and purchased on dodao.dev NFT marketplace for dodao.dev token or stablecoins.
 
 # When are service fees due?
 
@@ -132,7 +136,7 @@ Devopsdao Token will be needed to mint user NFTs, such as
 * brand NFTs (users need to have this NFT to promote their brand)
 * sprint NFTs (users need to have this NFT to create a sprint)
 
-Devospdao Token will be needed to mint skill tags
+Devospdao Token will be needed to mint NFTs.
 
 Devopsdao Token will be needed to participate in coding classes on our learning hub
 
