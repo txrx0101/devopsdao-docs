@@ -1,22 +1,41 @@
-# Devopsdao Token Economics
+# Dodao.dev Token Economics
 
 
-Autor: T!
+Authors: T!, R
 Last update: 15.01.2023
 Document Status: WIP; final: NO
 
+# Abstract
 
-# Introduction & Overview
+This document describes tokenomics of Dodao.dev (originally devopsdao), which aims to provide an easy way to implement Tasks and Projects using the power of smart contracts.
+Simply Dodao.dev is a decentralised and permissionless marketplace for finding and hiring tech talents and designers. 
 
-DevopsDAO is a decentralised and permissionless marketplace for finding and hiring tech talents and designers. We have started building devopsdao with the crypto and blockchain developer commmunity in our minds, but coming close to a near launch ready version of our dApp we are thinking of "why not for all tech talents and designers?" why should we limit us folks? Let's do a deeper dive into how the marketplace works.
+We have started building devopsdao with the crypto and blockchain developer commmunity in our minds, but coming close to a near launch ready version of our dApp we are thinking of "why not for all tech talents and designers?" why should we limit us folks? Let's do a deeper dive into how the marketplace and smart contracts work.
 
-## Marketplace on devopsdao
+# Specification
 
-The marketplace is the central place of our dApp where almost everything happens. Users of the dApp are generally catgorized in two main groups "customers" and "performers", performers are developers, designers, etc. users perfoming tasks and completing tasks. Some of the performers can become auditors depending on their level of skills, depth of domain knowledge and contribution to the DAO.
+The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY” and “OPTIONAL” in this document are to be interpreted as described in RFC 2119.
 
-## Assets of devopsdao
+We set some keywords to make dodao.dev internals clear and visible for both user and developer, such keywords are always start with capital letter.
+* Task - a Task which specififies Customer requirements which must be implemented by Performer, it consists of Type, Title, Desciption, Tags, Value and Repository URL
+- Task Type - can be Private, Public or Hackaton
+- Task Title - a string which makes a Task easy to distinguish between other Tasks, is also used for pull request creation on Github
+- Task Description - a text which defines the Task requirements for the Performer
+- Task Tags - text and NFT tags which allow groupping and search on the Tasks list
+* Customer - the person who created a Task is a Customer
+* Performer - the person selected to implement the Task is a Performer
+* Auditor - the person selected to settle the Task in favor of Customer or Performer is an Auditor
+* Tags - text or NFT tags used to destinguish a Task
+* Audit - a process of settling the Task result
 
-devopsdao assets are categorized in two categories:
+
+## Marketplace on dodao.dev
+
+The marketplace is the central place of our dApp where almost everything happens. Users of the dApp are generally catgorized in two main groups "Customers" and "Performers", Performers are developers, designers, etc. users perfoming Tasks and completing Tasks. Some of the Performers can become Auditors depending on their level of skills, depth of domain knowledge and contribution to the DAO.
+
+## Assets
+
+dodao.dev assets are categorized in two categories:
 
 a. Token (fungible)
 b. NFT (non-fungible)
@@ -32,82 +51,83 @@ These two main assets will be used either alone or in combination. NFTs will hav
 
 ## Token (fungible)
 
-devopsdao token can be used as gas, this depends on user's choice. Fees will be paid and collected in devopsdao token. Token will be needed to buy "skill tags", NFTs and pay for audits.
+dodao.dev token can be used as gas(GSN), this depends on user's choice. Fees will be paid and collected in devopsdao token. Token will be needed to buy skill Tags, NFTs and pay for Audits.
 
 ## NFTs (non-fungible)
 
 NFTs will have various use cases on devopsdao.
 
-* user profiles will be NFTs
-* every task is actually a NFT
-* skill tags are NFTs
+* user profiles are soulbound NFTs(eip-5192)
+* Task and skill tags are NFTs
+* every completed Task is a NFT
+* project pages are NFTs
 
 
 ## Task tags and NFTs tags
 
-1. Each task can be created with a number of text tags assigned to it along its title and description.
+1. Each Task can be created with a number of text tags assigned to it along its title and description.
 
-When a Customer assigns a common tag which is also available as preminted NFT tags collection (for example Javascript, Design or Web3), user is able to attach one to his task. Such option is available by clicking on the assigned tag and selecting a count of NFT tags to be attached to the task, if a Customer does not have any NFT tags from the collection he is able to mint it for a fee, or buy from a Market (to be defined separately).
+When a Customer assigns a common tag which is also available as preminted NFT tags collection (for example Javascript, Design or Web3), user is able to attach one to his Task. Such option is available by clicking on the assigned tag and selecting a count of NFT tags to be attached to the Task, if a Customer does not have any NFT tags from the collection he is able to mint it for a fee, or buy from a Market (to be defined separately).
 
-When the task is created, the NFT tags assigned to the task are transferred from Customer wallet to the task contract address.
+When the Task is created, the NFT tags assigned to the Task are transferred from Customer wallet to the Task contract address.
 
-2. When a Performer applies to the task with NFT tags he must own at least the same amount of the NFT tags of the particular collection. If a Performer owns more NFT tags than was assigned to a task he can boost his participation by using more NFT tags so he will be shown higher and a power bar (and probably tag count) will be shown on his NFT tag badge. When Performer applies to the task, the NFT tags in the specified amount are transferred from Performers wallet to the task contract address.
+2. When a Performer applies to the Task with NFT tags he must own at least the same amount of the NFT tags of the particular collection. If a Performer owns more NFT tags than was assigned to a Task he can boost his participation by using more NFT tags so he will be shown higher and a power bar (and probably tag count) will be shown on his NFT tag badge. When Performer applies to the Task, the NFT tags in the specified amount are transferred from Performers wallet to the Task contract address.
 
-3. When Performer completes the task he receives all NFT tags assigned to the task, both Customers' and his own. He is free to keep it or sell on the Market.
+3. When Performer completes the Task he receives all NFT tags assigned to the Task, both Customers' and his own. He is free to keep it or sell on the Market.
 
-4. When a performer abondons a task the NFT tags he has pledged for the task will be added to the task and the task will be boosted on the marketplace to be picked up by other developers. The customer at the same time can decide to cancel the task after a 48 hours peiod has passed and other developers are given the chance to participate in the task.
+4. When a Performer abondons a Task the NFT tags he has pledged for the Task will be added to the Task and the Task will be boosted on the marketplace to be picked up by other developers. The Customer at the same time can decide to cancel the Task after a 48 hours peiod has passed and other developers are given the chance to participate in the Task.
 
 # Audits
 
-Both the customer and performer can initiate an audit; Audits are used for settling an issue, mediation and clarification if there are any misunderstandings or unclear topics between the customer and the performer about the work done.
+Both the Customer and Performer can initiate an Audit; Audits are used for settling an issue, mediation and clarification if there are any misunderstandings or unclear topics between the Customer and the Performer about the work done.
 
-## when can users initate an audit?
+## when can users initate an Audit?
 
-* When a task is in Agreed, Progress, Review stage Customer can apply for an Audit.
-* When a task is in a Review stage a Performer can apply for an Audit.
+* When a Task is in Agreed, Progress, Review stage Customer can apply for an Audit.
+* When a Task is in a Review stage a Performer can apply for an Audit.
 
-2.5 % audit fee is paid by topping up the task contract during the application. 
+2.5 % Audit fee is paid by topping up the Task contract during the application. 
 
-When a task is sent to Audit, it is available for Auditors to apply for it, then the Initiator of the audit can select the Auditor. The performer must own a Auditor NFT to qualify. Auditor NFTs are earned and can not be bought in the marketplace.
+When a Task is sent to Audit, it is available for Auditors to apply for it, then the Initiator of the Audit can select the Auditor. The Performer must own a Auditor NFT to qualify. Auditor NFTs are earned and can not be bought in the marketplace.
 
-When an Auditor is selected he carefully reviews the task and asks the Performer to send him his work, the Auditor must analyze if the work matches the tasks requirements and within 48 hours make his decision either to: set the task to a Completed stage, or return it back to the New stage for a new performer selection.
+When an Auditor is selected he carefully reviews the Task and asks the Performer to send him his work, the Auditor must analyze if the work matches the Tasks requirements and within 48 hours make his decision either to: set the Task to a Completed stage, or return it back to the New stage for a new Performer selection.
 
-When the work does not match the task requirements, Auditor based on on his professional expertise has a right to ask the Performer to send his corrections if he believes that it is minor and the work can be improved within the Audit period.
+When the work does not match the Task requirements, Auditor based on on his professional expertise has a right to ask the Performer to send his corrections if he believes that it is minor and the work can be improved within the Audit period.
 
 Auditor role is to effectively and economically resolve the issue raised between the Customer and Performer, for which he gets 10% Audit fee.
 
-*this stage we talk about "task audits" and not security audits; security audits are a seperate area we are going to explore in more depth later.
+*this stage we talk about "Task Audits" and not security Audits; security Audits are a seperate area we are going to explore in more depth later.
 
 # The marketplace, the now and the future
 
-As you may have noticed on devopsdao users add tasks to the marketplace, tasks include skill tags and could also include project identifiers to group tasks that belong in a certain group, for eaxmple a feaure and features could be a part of a user story and user stories could be backlog items. On the other hand tasks can then be grouped into sprints.
+As you may have noticed on devopsdao users add Tasks to the marketplace, Tasks include skill Tags and could also include project identifiers to group Tasks that belong in a certain group, for eaxmple a feaure and features could be a part of a user story and user stories could be backlog items. On the other hand Tasks can then be grouped into sprints.
 
-Today users can add tasks to marketplace and get simple jobs done.
+Today users can add Tasks to marketplace and get simple jobs done.
 With future releases it will be possible to add complete projects based on time and material.
-In the near future it will also be possible that customers hire freelancers for a longer professional engagement based on time spent on the project.
+In the near future it will also be possible that Customers hire freelancers for a longer professional engagement based on time spent on the project.
 
 In every of these transactions, devopsdao collects a 2.5% service.
 
 # When are service fees due?
 
-* when a user adds a task to the marketplace, the 2.5% service fee is added to the smart contract.
-* when a user requests for an audit, the 2.5% service fee is added to the smart contract.
+* when a user adds a Task to the marketplace, the 2.5% service fee is added to the smart contract.
+* when a user requests for an Audit, the 2.5% service fee is added to the smart contract.
 * when a user books any of the professional services, the 2.5% service fee is added to the smart contract.
 
-At the end when the task is setlled the payment is made and the service fee is withdrawn.
+At the end when the Task is settled the payment is made and the service fee is withdrawn.
 
 # What happens with the service fee?
 
-50% of the service fee is added to the treasury; the treasury uses this to secure the continuity of the dao and spents the money for grants to support open source projects, invests to enhance features and services of devopsdao. Business development is also one of the tasks of the Boardroom who controls the treasury.
+50% of the service fee is added to the treasury; the treasury uses this to secure the continuity of the dao and spents the money for grants to support open source projects, invests to enhance features and services of devopsdao. Business development is also one of the Tasks of the Boardroom who controls the treasury.
 
-50% of the service fee is added to a rewards pool; the rewards pool rewards the most contributing performers and supports the least contributing performers to boost their visibility in the marketplace.
+50% of the service fee is added to a rewards pool; the rewards pool rewards the most contributing Performers and supports the least contributing Performers to boost their visibility in the marketplace.
 
 # Token?
 
 Devopsdao Token will be needed to mint user NFTs, such as 
 
-* customer NFT (users need to have this NFT to add tasks to the marketplace)
-* performer NFT (users need to have this NFT to participate in tasks)
+* Customer NFT (users need to have this NFT to add Tasks to the marketplace)
+* Performer NFT (users need to have this NFT to participate in Tasks)
 * team NFTs (users need to have this NFT if they want to work in closed groups)
 * brand NFTs (users need to have this NFT to promote their brand)
 * sprint NFTs (users need to have this NFT to create a sprint)
@@ -116,9 +136,9 @@ Devospdao Token will be needed to mint skill tags
 
 Devopsdao Token will be needed to participate in coding classes on our learning hub
 
-# Are tasks paid in devopsdao token?
+# Are Tasks paid in devopsdao token?
 
-No, all tasks have a USDT value and tasks are paid in USDT.
+No, all Tasks have a USDT value and Tasks are paid in USDT.
 
 Service fees are collected in USDT as well.
 
