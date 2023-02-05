@@ -1,4 +1,4 @@
-# Introduction
+#Introduction
 
 We envision to cultivate an equal DAO, menaing all DAO members have equal voting power, one member = one vote. However depending on the user's contribution to the DAO, the user will be able to boost his voting power.
 
@@ -8,7 +8,7 @@ Every proposal will be discussed within the DAO and will be voted. The result of
 
 Every proposal can only be brought one time to the DAO for discussion and voting, if a proposal was initially rejected, even did not proceed to voting, this proposal can not be submitted in its initial status and must be updated according to feedback and input received by the community.
 
-# Simple process for proposals
+#Simple process for proposals
 
 1. user drafts a proposal
 2. user submits proposal to DAO forum
@@ -21,7 +21,7 @@ Every proposal can only be brought one time to the DAO for discussion and voting
 9. for any proposal to pass execution approval, DAO participatio must exceed 80%
 10. the vote result will be executed
 
-# Simple process for disputes
+#Simple process for disputes
 
 any disputes will be examined carefully by all DAO members; disputes will be openly discussed as long as they are not intended for a closed group. Closed groups are entitled to manage their issues witin their community; However closed groups can not use their collective power to manipulate DAO general matters. Every member owns one vote. Closed groups do not have an extra combined or accumulated power.
 
@@ -31,7 +31,7 @@ any disputes will be examined carefully by all DAO members; disputes will be ope
 4. every dispute will be examined carefully by the DAO
 5. if necessary subject matter experts can be involved through standard dodao processes
 
-# simple process to follow when implementing changes on dodao.dev
+#simple process to follow when implementing changes on dodao.dev
 
 1. our ultimate responsibility is business continuity
 2. we will check every aspect of the change very carefully
