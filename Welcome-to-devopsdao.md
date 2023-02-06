@@ -27,3 +27,6 @@ We learned about Moonbeam cross-chain network capabilities and Axelar network in
 We are going to complete the implementation of inter-chain operation with the help of Axelar, add Auditor role, prepare Solidity code for a security review, add NFT support for user roles and achievements, add multi-user funding ability for community initiatives, port Metamask connector to Dart, refactor the Flutter code and gamify in-app processes.
 
 Check out our first MVP App Demo on our website dodao.dev and also on our YouTube Channel follow for videos
+
+## Current dApp design we are working on
+
