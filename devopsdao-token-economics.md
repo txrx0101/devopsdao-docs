@@ -1,4 +1,4 @@
-<img src="images/devopsdao-logo.png" width=500 height=500>
+<img src="images/devopsdao-logo.png" width=300 height=300>
 
 # Dodao.dev Token Economics
 
