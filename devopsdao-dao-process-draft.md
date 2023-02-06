@@ -21,7 +21,7 @@ Every proposal can only be brought one time to the DAO for discussion and voting
 9. for any proposal to pass execution approval, DAO participatio must exceed 80%
 10. the vote result will be executed
 
-#Simple process for disputes
+# Simple process for disputes
 
 any disputes will be examined carefully by all DAO members; disputes will be openly discussed as long as they are not intended for a closed group. Closed groups are entitled to manage their issues witin their community; However closed groups can not use their collective power to manipulate DAO general matters. Every member owns one vote. Closed groups do not have an extra combined or accumulated power.
 
