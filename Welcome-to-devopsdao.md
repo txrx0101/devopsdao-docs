@@ -30,3 +30,4 @@ Check out our first MVP App Demo on our website dodao.dev and also on our YouTub
 
 ## Current dApp design we are working on
 
+<img src="images/dodao-dapp-design.png>
