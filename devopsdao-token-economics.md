@@ -1,6 +1,3 @@
-![logo]: (devopsdao-logo "Logo Title Text 2")
-
-
 # Dodao.dev Token Economics
 
 
