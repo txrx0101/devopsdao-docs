@@ -1,4 +1,4 @@
-![alt text](https://github.com/devopsdao/devopsdao-docs/blob/master/images/devopsdao-logo.png "Logo Title Text 1")
+![alt text](https://github.com/devopsdao/devopsdao-docs/blob/master/images/devopsdao-logo.png "Logo Title Text 2")
 
 # Dodao.dev Token Economics
 
