@@ -125,6 +125,8 @@ At the end when the Task is settled the payment is made and the service fee is w
 
 # What happens with the service fee?
 
+<img src="images/devopsdao-business-model" width=300 height=300>
+
 50% of the service fee is added to the treasury; the treasury uses this to secure the continuity of the dao and spents the money for grants to support open source projects, invests to enhance features and services of devopsdao. Business development is also one of the Tasks of the Boardroom who controls the treasury.
 
 50% of the service fee is added to a rewards pool; the rewards pool rewards the most contributing Performers and supports the least contributing Performers to boost their visibility in the marketplace.
