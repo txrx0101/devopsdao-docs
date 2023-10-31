@@ -15,3 +15,5 @@ In the next upcoming version of dodao.dev it will be possible to create "Sprints
 - Money spent
 
 The project team, the investor and the community can easily see how the team's development efforts are progressing and how much funds have been allocated to the sprint.
+
+...to be continued. The possiblities with dodao.dev are literally limitless.
