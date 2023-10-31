@@ -8,10 +8,10 @@ Whilst implementing the tasks and reaching planned milestones, the project drowe
 
 In the next upcoming version of dodao.dev it will be possible to create "Sprints" from the tasks. The selected developer team will then plan the tasks into sprints. These sprints will be visible on the blockchain, as "tasks" in "a Sprint", and the sprints will be trackable. With every progress made the sprint status will update:
 
-Number of Tasks in a sprint
-Calculated effort for the sprint
-Acceptance rate at first iteration
-Burn rate
-Money spent
+- Number of Tasks in a sprint
+- Calculated effort for the sprint
+- Acceptance rate at first iteration
+- Burn rate
+- Money spent
 
 The project team, the investor and the community can easily see how the team's development efforts are progressing and how much funds have been allocated to the sprint.
