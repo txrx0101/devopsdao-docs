@@ -4,7 +4,7 @@
 
 
 Authors: T!, R
-Last update: 15.01.2023
+Last update: 31.10.2023
 Document Status: WIP; final: NO
 
 # Abstract
@@ -46,6 +46,8 @@ These two main assets will be used either alone or in combination. NFTs will hav
 
 - Tasks added to marketplace
 - Tasks completed successfully (based on time, quality and cost)
+- Burn rate
+- Acceptance at first review
 - Technical skills
 - Number of clients worked for
 
@@ -108,7 +110,7 @@ Today users can add Tasks to marketplace and get simple jobs done.
 With future releases it will be possible to add complete projects based on time and material.
 In the near future it will also be possible that Customers hire freelancers for a longer professional engagement based on time spent on the project.
 
-In every of these transactions, devopsdao collects a 2.5% service.
+In every of these transactions, devopsdao collects a 4% service.
 
 # NFT marketplace
 
