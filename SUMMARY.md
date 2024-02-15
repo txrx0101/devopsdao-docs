@@ -6,3 +6,4 @@
 * [Devopsdao guidelines](devopsdao-guidelines.md)
 * [Devopsdao token economics](devopsdao-token-economics.md)
 * [Devopsdao web three library ](devopsdao-webthree-library.md)
+* [Devopsdao Whitepaper 1.0 ](devopsdao-whitepaper-1.md)

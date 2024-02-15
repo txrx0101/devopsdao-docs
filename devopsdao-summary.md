@@ -1,26 +1,26 @@
-# What is devopsdao?
+# What is dodao.dev?
 
-Devopsdao is a decentralized uniform platform for quality software development and design
+Dodao.dev is a decentralized uniform platform for quality software development and design
 work, a decentralized marketplace for developers and designers. We are building the app as a
 multi-platform dApp, it is currently available on Android and web, it will also be available on
 iOS, MacOS, Microsoft and LINUX. We would like the people use our dApp on their
 preferred platform, we do not want to create any boundaries. We believe future dApps must
-be multi-chain and multi-platform.
+be multi-chain and multi-platform. We have recently launched our own Dodao AppChain on Tanssi Network.
 
-The dApp is built to support multiple chains. Withdrawal of funds is already available to
-Ethereum, Fantom, Moonbeam, Avalanche, Polygon, while we add more chains to
+The dodao.dev is built to support multiple chains. Withdrawal of funds is already available to
+Ethereum, Fantom, Moonbeam, Avalanche, Polygon, Fantom Sonic Testnet while we add more chains to
 withdrawals, we are also working on deploying our contract to the mentioned chains so
-devopsdao will be available on the native blockchain as well.
+dodao.dev will be available on the native blockchain as well.
 
-Because of our multi chain focus devopsdao will be available to a much larger community
+Because of our multi chain focus dodao.dev will be available to a much larger community
 than an dApp on only one chain. We believe in the future of multi chain dApps, and cross
 chain transactions. We believe that cross-chain transactions will help the adoption of this
 innovative technology.
 
-# What makes devopsdao unique?
+# What makes dodao.dev unique?
 
-Devopsdao is being built with the developers and designers as a center piece. We are building
-devopsdao with the community in mind, the DAO will be owned and governed by the
+Dodao.dev is being built with the developers and designers as a center piece. We are building
+dodao.dev with the community in mind, the DAO will be owned and governed by the
 community.
 
 Our solution is a decentralized solution, totally different than the centralized competition. Our
@@ -35,11 +35,16 @@ only consist of on-chain metrics data of actual work done. Users do not need to 
 their NFTs, or any of their token, it is enough to keep the NFTs in their wallets. We encourage
 everyone in the crypto space to “self-custody”.
 
-In fact devopsdao will be a platform to which the user can plug into to receive services
-offered by devopsdao; we do not make it mandatory to use devopsdao at all, devopsdao is not
-restrictive, but inclusive.
+In fact dodao.dev will be a platform to which the user can plug into to receive services
+offered by dodao.dev; we do not make it mandatory to use dodao.dev at all, dodao.dev is not
+restrictive, but inclusive. More general communication could take place using any tool the teams prefer.
+Specific, relevant information can be stored using the built-in chat function on dodao.dev. 
 
-# Who are the people behind devopsDAO?
+Yes, it is true, we have built chat in dodao.dev. After two users agree to work together, "chat" is enabled 
+and the two users can chat with each other witin the task itself, which gives possibility to store specific 
+and relevant information to be stored into the task, this data could later be used in other processes.
+
+# Who are the people behind dodao.dev?
 
 First of all we are people who believe in that technology should be used for the good of
 humanity. We are a small group of tech professionals, designers and project managers, who
